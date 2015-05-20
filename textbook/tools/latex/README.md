@@ -52,6 +52,8 @@ The following text creates a basic file:
 ```
 \documentclass[12pt]{article}
 \begin{document}
+Mike Izbicki is a great professor. Actually, he is the best professor ever.
+Mike Izbicki is my favorite professor. 
 
 Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and 
 printing in place of English to emphasise design elements over content. 
@@ -89,3 +91,6 @@ Now we are ready to commit:
 
 
 
+...
+Now that you learned more linux tools, you are a better computer scientist student. So, make sure to mention that in your Resume and get ready for better opportunities! The following exemple we will be presenting more LaTeX codding for you create your own Resume using this powerful tool to make it look great.
+... 2 examples here
