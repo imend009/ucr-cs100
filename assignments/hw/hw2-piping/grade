@@ -1,4 +1,4 @@
-/ 100
+80/ 100
 Last update Sat May 16 01:28:20 2015 -0700
 
 -----------------------------------------------------
@@ -47,3 +47,28 @@ celik$ extra credit 1 works
 
 -----------------------------------------------------
   Extra 2 (20)
+
+celik$ 
+celik$ extra2_1r
+extra2_1a
+
+celik$ 
+celik$ extra2_1r
+extra2_1a
+extra2_1a
+
+celik$ Flag :5
+
+celik$ cat: extra2_2r: No such file or directory
+aaa: No such file or directory
+cat: extra2_2a: No such file or directory
+
+celik$ Flag :6
+
+celik$ cat: extra2_2r: No such file or directory
+aaa: No such file or directory
+cat: extra2_2a: No such file or directory
+cat: extra2_2a: No such file or directory
+
+  -5: 2> Does not work!
+  -5: 2>> Does not work!
