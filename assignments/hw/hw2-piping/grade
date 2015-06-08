@@ -1,1 +1,72 @@
-/ 100
+90/ 100
+Last update Sat May 16 01:28:20 2015 -0700
+
+-----------------------------------------------------
+[1]  Input redirection from an existant file (25)
+-----------------------------------------------------
+[2]  Output redirection (>) to an non-existant file (15)
+-----------------------------------------------------
+[3]  Output append (>>) to an existing file (10)
+-----------------------------------------------------
+[4]  Command with one pipe (15)
+  -15: Does not work!
+
+celik$ 
+celik$ 
+-----------------------------------------------------
+[5]  Command with more than one pipe (15)
+  -15: Does not work!
+
+celik$ 
+celik$ 
+-----------------------------------------------------
+[6]  Input redirection with piping (5)
+  -5: Does not work!
+
+celik$ 
+celik$ 
+-----------------------------------------------------
+[7]  Output redirection and piping (5)
+  -5: Does not work!
+
+celik$ 
+
+celik$ 
+-----------------------------------------------------
+[8]  Input redirection, output redirection, and piping (10)
+  -10: Does not work!
+
+celik$ 
+
+celik$ 
+-----------------------------------------------------
+  Extra 1: <<< (20)
+
+celik$ extra credit 1 works 
+
+
+-----------------------------------------------------
+  Extra 2 (20)
+
+celik$ 
+celik$ extra2_1r
+extra2_1a
+
+celik$ 
+celik$ extra2_1r
+extra2_1a
+extra2_1a
+
+celik$ Flag :5
+
+celik$ cat: extra2_2r: No such file or directory
+aaa: No such file or directory
+cat: extra2_2a: No such file or directory
+
+celik$ Flag :6
+
+celik$ cat: extra2_2r: No such file or directory
+aaa: No such file or directory
+cat: extra2_2a: No such file or directory
+cat: extra2_2a: No such file or directory
+
