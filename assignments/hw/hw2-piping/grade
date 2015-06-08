@@ -1,4 +1,4 @@
-80/ 100
+90/ 100
 Last update Sat May 16 01:28:20 2015 -0700
 
 -----------------------------------------------------
@@ -70,5 +70,3 @@ aaa: No such file or directory
 cat: extra2_2a: No such file or directory
 cat: extra2_2a: No such file or directory
 
-  -5: 2> Does not work!
-  -5: 2>> Does not work!
